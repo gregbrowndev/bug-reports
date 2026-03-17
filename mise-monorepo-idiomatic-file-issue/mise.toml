@@ -1,0 +1,15 @@
+min_version = '2026.3.8'
+experimental_monorepo_root = true
+
+[monorepo]
+config_roots = ["./packages/*"]
+
+[settings]
+experimental = true
+lockfile = true
+
+[tasks]
+[tasks.format]
+description = "Run all formatters"
+run = ["mise fmt"]
+depends = "//...:format"
