@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../issues/factory-boy-typing-issue"
+		},
+		{
+			"path": "../issues/mise-monorepo-idiomatic-file-issue"
+		}
+	],
+	"settings": {
+		"python.terminal.activateEnvironment": false,
+		"python.terminal.activateEnvInCurrentTerminal": false,
+	}
+}
